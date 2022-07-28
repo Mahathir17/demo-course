@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .carousel-caption {
     bottom: initial;
     top: 50%;
@@ -5,7 +9,17 @@
 }
 
 .border1px {
-    border-top: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    border: 1px solid lightgray;
+}
+
+.working-bg {
+    background: #F4FAFD;
+}
+
+.working-h {
+    height: 800px;
+}
+
+.all-bg {
+    background: #289BDE;
 }
