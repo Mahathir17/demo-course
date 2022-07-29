@@ -23,3 +23,7 @@
 .all-bg {
     background: #289BDE;
 }
+
+.accordion-max-w {
+    max-width: 800px;
+}
