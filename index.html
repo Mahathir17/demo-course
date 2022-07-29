@@ -29,11 +29,11 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Courses</a>
-              <a class="nav-link" href="#">Deals</a>
-              <a class="nav-link" href="#">Success</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Register</a>
+              <a class="nav-link" href="#courses">Courses</a>
+              <a class="nav-link" href="#deal">Deals</a>
+              <a class="nav-link" href="#success">Success</a>
+              <a class="nav-link" href="#questions">Questions</a>
+              <a class="nav-link" href="#register">Register</a>
 
             </div>
           </div>
@@ -48,8 +48,7 @@
             <img src="./images/cover/cover-1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption  d-md-block">
               <h4 class="fw-bolder ">Get Started Digital Learning</h4>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout.</p>
+              <p>Join our courses to be a skilled full person</p>
               <button class="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -87,14 +86,14 @@
 
     <main>
       <!-- Courses -->
-      <section class="mt-5">
+      <section class="mt-5" id="courses">
         <div class="text-center">
           <h1>Discover Our Popular Courses</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when
             looking
             at its layout.</p>
         </div>
-        <div class="row gap-5">
+        <div class="row gap-5 justify-content-center">
           <div class="col-lg-6  col-md-12 col-sm-12  row">
             <div class="col-lg-4 col-md-4 col-sm-12">
               <img class="img- w-100" src="images/course/course-1.png" alt="">
@@ -163,7 +162,7 @@
       </section>
 
       <!-- Explore  -->
-      <section>
+      <section id="deal">
         <div class="row gap-0 g-0 align-it mt-5">
           <div class="col-lg-6 h-100 col-md-6 col-sm-12">
             <img class="img-fluid w-100 working-h" src="./images/working.png" alt="">
@@ -200,7 +199,7 @@
       </section>
 
       <!-- Join Section -->
-      <section>
+      <section id="register">
         <div
           class="row rounded-2 mt-5  all-bg justify-md-content-center justify-content-sm-center justify-content-lg-between align-items-center text-white p-5">
           <div class="col-lg-6 col-md-12 col-sm-12">
@@ -211,15 +210,39 @@
             </p>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 text-end">
-            <button class="text-primary btn btn-light">Register Now</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade text-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Join us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    By joining us, you will learn a lot of things. We have many courses. All the courses are very high
+                    quality.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- Students -->
-      <section>
+      <section id="success">
         <div>
-          <h1 class="text-sm-center text-lg-start text-md-start text-center mt-5">Meet Our Successfull Students</h1>
+          <h1 class="text-sm-center text-lg-start text-md-start text-center mt-5">Meet Our Success full Students</h1>
           <p class="text-sm-center text-lg-start text-md-start text-center">It is a long established fact that a reader
             will be
             distracted by the readable content
@@ -260,7 +283,7 @@
       </section>
 
       <!-- Question -->
-      <section class="text-center ">
+      <section class="text-center" id="questions">
         <h1>Frequently Asked Questions</h1>
         <p>
           It is a long established fact that a reader will be distracted by the readable content of a page when looking
