@@ -27,3 +27,11 @@
 .accordion-max-w {
     max-width: 800px;
 }
+
+.social-icon i {
+    font-size: 25px;
+    margin: 0 10px;
+    background: rgb(59, 59, 59);
+    padding: 10px;
+    border-radius: 50%;
+}
